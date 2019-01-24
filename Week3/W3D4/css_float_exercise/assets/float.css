@@ -76,6 +76,10 @@ nav {
     float: right;
 }
 
+header:after {
+  clear: both;
+}
+
 nav ul li {
     display:  inline-block;
 }
@@ -97,9 +101,11 @@ section {
 }
 
 aside {
-    width: 180px;
+    /* width: 180px;
     margin-right: 15px;
-    display: inline-block;
+    display: inline-block; */
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 
 .ingredients-list li {
