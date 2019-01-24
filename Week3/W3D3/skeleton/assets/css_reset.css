@@ -1,0 +1,13 @@
+html, body, section, article, h1, h2, p {
+    margin: inherit;
+    border: inherit;
+    padding: inherit;
+}
+
+body {    
+    line-height: 1.5;
+}
+
+img {
+    width: inherit;
+}
