@@ -19,6 +19,7 @@ ul li a, figcaption a {
 
 header > img {
   width: 100px;
+  display: inline-block;
 }
 
 header {
